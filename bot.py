@@ -401,7 +401,11 @@ async def cmd_start(message: types.Message):
         if user_data.get('banned', False):
             await message.answer("🚫 <b>Вы забанены.</b>", parse_mode="HTML")
             return
-        await show_game_menu(message.chat.id, user_data.get('game', 'standoff'), message.from_user.username or message.from_user.first_name)
+        await show_game_menu(
+    message.chat.id,
+    user_data.get('game') or 'standoff',
+    message.from_user.username or message.from_user.first_name
+)
     else:
         ref_user_id = None
         if len(message.text.split()) > 1:
