@@ -1,0 +1,62 @@
+{
+    "users": {
+        "6665527288": {
+            "username": "ravwanov_a",
+            "game": null,
+            "balance_standoff": 0,
+            "balance_roblox": 0,
+            "balance_tgstar": 0,
+            "registration_date": "2026-04-09 22:29:13",
+            "is_active": true,
+            "activated_promocodes": [],
+            "referrer_id": null,
+            "referrals": [],
+            "total_earned_standoff": 0,
+            "total_earned_roblox": 0,
+            "total_earned_tgstar": 0,
+            "total_ref_earned_standoff": 0,
+            "total_ref_earned_roblox": 0,
+            "total_ref_earned_tgstar": 0,
+            "banned": false
+        }
+    },
+    "support_tickets": {},
+    "promocodes": {},
+    "withdraw_requests": {},
+    "purchase_requests": {},
+    "reviews": {},
+    "referral_settings": {
+        "standoff_percent": 10,
+        "roblox_percent": 10,
+        "tgstar_percent": 10
+    },
+    "settings": {
+        "exchange_rates": {
+            "standoff": 125,
+            "roblox": 149,
+            "tgstar": 260
+        },
+        "min_purchase": 90000,
+        "max_purchase": 10000000,
+        "min_withdraw": {
+            "standoff": 50,
+            "roblox": 500,
+            "tgstar": 50
+        },
+        "max_withdraw": {
+            "standoff": 10000,
+            "roblox": 100000,
+            "tgstar": 10000
+        },
+        "withdraw_multiplier": 1.25
+    },
+    "stats": {
+        "total_users": 1,
+        "total_withdraw_standoff": 0,
+        "total_withdraw_roblox": 0,
+        "total_withdraw_tgstar": 0,
+        "total_reviews": 0,
+        "total_purchases": 0,
+        "total_purchases_amount": 0
+    }
+}
